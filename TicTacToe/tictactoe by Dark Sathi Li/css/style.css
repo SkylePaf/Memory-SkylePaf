@@ -1,0 +1,92 @@
+html{
+    background-color: rgba(237, 151, 163, 0.778);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: block;
+    color: white;    
+    border-bottom-style: none;
+    border-color: grey;
+    height: 10vw;
+    line-height: 10vw;
+    background-color: rgba(224, 9, 41, 0.778);
+    font-family: titre ;
+    font-size: 3.5vw;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-shadow: 0.2vw 0.2vw 0.4vw black;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+
+h1::before{
+    display: block;
+    content:"";
+    height: 9vw;
+    width: 9vw;
+    /**border: solid;**/
+    float: left;
+    background-image: url(https://media.giphy.com/media/Qw4X3FM5UtA1OKdOn4I/giphy.gif);
+    background-size: cover;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    height: 8vw;
+    width: 8vw;
+    color: black;    
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-radius: 50vw;
+    background-color:  white;
+    text-shadow: 0.2vw 0.2vw 0.4vw black;
+    float:left;
+    margin-left: 25vw;
+}
+
+button:hover{
+    background-color: rgba(226, 66, 85, 0.502);
+}
+
+@font-face{
+    font-family: "titre";
+    src: url("../font/Bartleen_Script.ttf")
+}
+
+#tictactoe{
+    display: block;
+    border-color: grey;
+    border-top-style: none;
+    width: 30vw;
+    /*height: 38vw;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  rgba(224, 9, 41, 0.778);
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+
+}
+
+#tictactoe td{
+    width: 10vw;
+    height: 10vw;
+    border: solid;
+    border-radius: 50vw;
+    border-color:white;
+    background-color: rgba(237, 151, 163, 0.778);
+}
+
+
+
+
+
+
+
+

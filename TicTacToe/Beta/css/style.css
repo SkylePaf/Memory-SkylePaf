@@ -1,0 +1,88 @@
+html{
+    background-color: black;
+}
+
+h1{
+    display: block;
+    color: rgba(21,239,69,255);
+    text-align: center;
+    border-style: solid;
+    border-color: rgba(21,239,69,255);
+    height: 10vw;
+    line-height: 10vw;
+    background-color: black;
+    font-family: titre ;
+    font-size: 5vw;
+    width: 38vw;
+    margin: auto;
+    text-shadow: rgba(46, 199, 8, 1) 1px 0 5px;
+    
+}
+h1::before{
+    display: block;
+    content:"";
+    height: 10vw;
+    width: 10vw;
+    /**border: solid;**/
+    float: left;
+    background-image: url(https://i.gifer.com/RRsS.gif);
+    background-size: cover;
+}
+h1::after{
+    display: block;
+    content:"";
+    height: 10vw;
+    width: 10vw;
+    /**border: solid;**/
+    float: right;
+    background-image: url(https://i.gifer.com/RRsS.gif);
+    background-size: cover;
+}
+button{
+    margin-top: -49.5vw;
+    height: 8vw;
+    width: 8vw;
+    color: rgb(7, 252, 85);    
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-radius: 50vw;
+    background-color: black;
+    font-size: 1.9vw;
+    text-align: center;
+    text-shadow: 0.2vw 0.2vw 0.4vw rgba(21,239,69,255);
+    float:left;
+    margin-left: 19vw;
+    border-color: rgba(21,239,69,255);
+    font-family: titre ;
+}
+
+button:hover{
+    background-color: black;
+}
+
+@font-face{
+    font-family: "titre";
+    src: url("../font/Ghastly Panic.ttf")
+}
+
+#tictactoe{
+    display: block;
+    width: 38.25vw;
+    height: 40vw;
+    margin: auto;
+    border-style: solid;
+    background-color: black;
+    border-color: rgba(21,239,69,255);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#tictactoe td{
+    width: 11.60vw;
+    height: 11.60vw;
+    border: solid;
+    margin: auto;
+    background-color: rgba(80, 245, 39, 0.17);
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgba(21,239,69,255);
+}
