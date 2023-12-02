@@ -1,0 +1,83 @@
+html{ /* BACKGROUND */
+    background-color: black;
+}
+.center-button { /* CENTER-ITEMS */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 { /* TITLE */
+    border-style: solid;
+    height: 64px;
+    border-color: rgb(51, 255, 0);
+    box-shadow: rgb(51, 255, 0) 0px 0px 20px;
+    font-family: font2;
+    width: 320px;
+    text-align: center;
+    text-shadow: rgba(46, 199, 8, 1) 1px 0 20px;
+    font-size: 55px;
+    color: rgb(51, 255, 0);
+    margin-bottom: 20px;
+}
+input[type="button"] { /* BUTTON-START : Global */
+    align-items: center;
+    appearance: none;
+    background-color: #000000;
+    border-radius: 4px;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: font1;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: rgb(51, 255, 0) 1px 0 30px;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 150px;
+    font-family: font1;
+    font-weight: 700;
+    color: rgb(53, 251, 3);
+    float: left;
+    height: 225px;
+    width: 300px;
+} 
+  
+input[type="button"]:focus { /* BUTTON-START : Selection */
+    box-shadow: black 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(46, 199, 8, 1) 0 7px 20px -3px, #000000 0 -3px 0 inset;
+}
+  
+input[type="button"]:hover { /* BUTTON-START : Inactif */
+    box-shadow: rgba(46, 199, 8, 1) 0 4px 20px, rgba(46, 199, 8, 1) 0 20px 20px -3px, rgba(46, 199, 8, 1) 0 -20px 0 inset;
+    transform: translateY(-2px);
+}
+  
+input[type="button"]:active { /* BUTTON-START : Actionné */
+    box-shadow: rgba(46, 199, 8, 1) 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+@font-face{ /* POLICE-1 */
+font-family: "font1";
+src: url("../font/Font_1.ttf")
+}
+@font-face{ /* POLICE-2 */
+    font-family: "font2";
+    src: url("../font/Font_2.otf")
+}
