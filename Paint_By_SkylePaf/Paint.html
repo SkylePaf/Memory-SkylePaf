@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+        <title>Paint</title>
+    </head>
+    <body>
+        <select id="color">
+            <option value="black">Default BLACK</option>
+            <option value="blue">BLUE</option>
+            <option value="purple">PURPLE</option>
+            <option value="pink">PINK</option>
+            <option value="red">RED</option>
+            <option value="orange">ORANGE</option>
+            <option value="yellow">YELLOW</option>
+            <option value="green">GREEN</option>
+            <option value="brown">BROWN</option>
+            <option value="grey">GREY</option>
+            <option value="white">WHITE</option>
+          </select>
+          <select id="sized">
+            <option value="1">Default 1PX</option>
+            <option value="2">2PX</option>
+            <option value="3">3PX</option>
+            <option value="4">4PX</option>
+            <option value="5">5PX</option>
+            <option value="6">6PX</option>
+            <option value="7">7PX</option>
+            <option value="8">8PX</option>
+            <option value="9">9PX</option>
+            <option value="10">10PX</option>
+            <option value="100">100PX</option>
+          </select>
+        <div id="paint-container" oncontextmenu="return false;">
+            <canvas id="paintDisp" width="800" height="600"></canvas>
+        </div>
+    </body>
+</html>

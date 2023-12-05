@@ -1,0 +1,40 @@
+html{
+    background-color: #212121;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#color, #sized{
+    position: absolute;
+    color: white;
+    border-radius: 5px;
+    border: white solid;
+    background-color: black;
+    text-align: center;
+}
+
+#color{
+    left: 45px;
+    top: 38px;
+}
+
+#sized{
+    left: 45px;
+    bottom: 38px;
+}
+
+#paint-container{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+#paintDisp{
+    cursor: crosshair;
+    /* cursor: url('/css/Crossair.png') auto; */
+}
