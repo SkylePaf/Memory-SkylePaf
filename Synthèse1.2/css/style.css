@@ -1,0 +1,75 @@
+html{
+    background-color: #A8B7FF;
+    background: -webkit-linear-gradient(45deg, #1a1a1a, #2f1c66, #870000, #661c62 80%);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    position: absolute;
+    letter-spacing: 2px;
+    font-family: font1;
+    font-size: 10vh;
+    text-align: center;
+    top: 0px;
+    color: white;
+    line-height: 40vh;
+    height: 40vh;
+    width: 100vw;
+    margin: 0;
+}
+#labelSynthèses{
+    font-family: font1;
+    color: white;
+}
+#synthèses{
+    transition: all 0.2s ease;
+    width: 2px;
+    height: 11px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: white 2px 1px;
+    border: rgb(255, 255, 255) solid 1px;
+}
+#synthèses:hover{
+    width: 2px;
+    height: 11px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: white 0 0 3px;
+    border: rgb(255, 255, 255) solid 1px;
+}
+#synthèses:active{
+    width: 2px;
+    height: 11px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0) 0 0 3px;
+    border: rgb(0, 0, 0) solid 1px;
+}
+.cours{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.cours{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+li{
+    color: white;
+}
+#bloc{
+    width: 10px;
+    height: 10px;
+    border: white solid;
+}
+@font-face {
+    font-family: font1;
+    src: url("../fonts/font1.otf");
+}
