@@ -51,6 +51,24 @@ h1{
     box-shadow: rgb(0, 0, 0) 0 0 3px;
     border: rgb(0, 0, 0) solid 1px;
 }
+.cours {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.cours {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+li {
+    color: white;
+}
+#bloc{
+    width: 10px;
+    height: 10px;
+    border: white solid;
+}
 @font-face {
     font-family: font1;
     src: url("../fonts/font1.otf");
