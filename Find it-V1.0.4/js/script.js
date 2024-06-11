@@ -189,7 +189,7 @@ submit.onclick = function(){
     playSoundEffects(false, listOfSounds[1], 0.1)
     muffedSoundTrack.pause();
     playNextSoundTrack(listOfSoundTrack[firstTrackIndex], muffedSoundTrack.currentTime)
-    currentSoundTrack.addEventListener("ended", ()=> {playNextSoundTrack(randomItem(listOfSoundTrack, 0, 5))})
+    currentSoundTrack.addEventListener("ended", ()=> {playNextSoundTrack(randomItem(listOfSoundTrack, 0, 15))})
     submit.parentNode.removeChild(submit);
     writeUsername.parentNode.removeChild(writeUsername);
     startButton = document.createElement("button");
@@ -259,7 +259,6 @@ function selectIMGSources(){
   thirdIMGIndex = randint(0, 4, 1)
   while(thirdIMGIndex === firstIMGIndex || thirdIMGIndex === secondIMGIndex){thirdIMGIndex = randint(0, 4, 1)}
   otherIMG2.src = listOfSprites[thirdIMGIndex]
-  console.log(firstIMG.src, otherIMG1.src, otherIMG2.src)
 }
 
 function clearCanvas(context, canvas) {
