@@ -174,6 +174,8 @@ function playSoundEffects(loopToF, audio, vol, startingTimeCode = 0){
   return audio;
 }
 
+alert("PRESS F11 TO ENABLE FULL SCREEN")
+
 document.addEventListener("click", function() {
   muffedSoundTrack.src = listOfMuffedSoundTrack[firstTrackIndex]
   muffedSoundTrack.loop = true
